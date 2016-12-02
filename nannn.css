@@ -1,0 +1,37 @@
+
+body {
+    background-image: url(./image/log.jpg);
+    background-size: cover;
+    background-position:center;
+	height:800px;
+	position:relative; 
+	text-align:center; 
+	color:red;
+	opacity:0.8;
+	z-index:2px;
+	font-family: sans-serif;
+}
+img { 
+max-width: 100%; 
+}
+h1 {
+text-align: center;
+color:purple;
+font-family: serif;
+font-weight: normal;
+text-transform: uppercase;
+border-bottom: 0px solid grey;
+margin-top: 30px;
+}
+h2 {
+text-align:center;
+font-family: font-family: sans-serif;
+color:red;
+font-size: 3em;
+margin-top:20px;
+}
+p{
+	text-align:center;
+	font-family:Apple chancery,cursive;
+	font-size:15px;
+	}

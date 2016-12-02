@@ -1,0 +1,41 @@
+body {
+    background-image: url(./image/wedding_4.jpg);
+    background-size: cover;
+    background-position:center;
+	height:800px;
+	position:relative; 
+	text-align:center; 
+	color:white;
+	opacity:0.9;
+	z-index:2px;
+	font-family: sans-serif;
+}
+img { 
+max-width: 100%; 
+}
+h1 {
+text-align: center;
+color:purple;
+font-family: serif;
+font-weight: normal;
+text-transform: uppercase;
+border-bottom: 0px solid grey;
+margin-top: 30px;
+}
+h2 {
+text-align:center;
+font-family: Apple chancery,cursive;
+color: gold;
+font-size: 1em;
+margin-top:20px;
+}
+image{
+width:60px;
+height:60px;
+}
+p{
+	text-align:center;
+	font-family:Apple chancery,cursive;
+	font-size:15px;
+	color:aqua;
+	}

@@ -1,0 +1,19 @@
+body{
+@media screen and (min-width: 480px) {
+  #container, #header, #content, #footer {
+    float: none;
+    width: auto;
+  }
+ #subtitle, #share, #slider, #sidebar{
+    display:none;
+  }
+  p{ font-size: 2em; }
+}
+img{
+	max-width:100%
+}
+#content {
+max-width: 1024px;
+margin: 0 auto;
+}
+}

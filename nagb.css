@@ -1,0 +1,139 @@
+
+body {
+    background-image: url(./image/log.jpg);
+    background-size: cover;
+    background-position:center;
+	height:800px;
+	position:relative; 
+	text-align:center; 
+	color:red;
+	opacity:0.8;
+	z-index:2px;
+	font-family: sans-serif;
+}
+img { 
+max-width: 100%; 
+}
+h1 {
+text-align: center;
+color:purple;
+font-family: serif;
+font-weight: normal;
+text-transform: uppercase;
+border-bottom: 0px solid grey;
+margin-top: 30px;
+}
+h2 {
+text-align:center;
+font-family: Apple chancery,cursive;
+color: gold;
+font-size: 1em;
+margin-top:20px;
+}
+h3{
+text-align:center;
+font-family: Apple chancery,cursive;
+color: gold;
+font-size: 1em;
+margin-top:20px;
+}
+h4{
+text-align:center;
+font-family: Apple chancery,cursive;
+color: gold;
+font-size: 1em;
+margin-top:20px;
+}
+h5{
+text-align:center;
+font-family: Apple chancery,cursive;
+color: gold;
+font-size: 1em;
+margin-top:20px;
+}
+h6{	
+text-align:center;
+font-family: Apple chancery,cursive;
+color: gold;
+font-size: 1em;
+margin-top:20px;
+}
+h7{	
+text-align:center;
+font-family: Apple chancery,cursive;
+color: gold;
+font-size: 1em;
+margin-top:20px;
+}
+h8{	
+text-align:center;
+font-family: Apple chancery,cursive;
+color: gold;
+font-size: 1em;
+margin-top:20px;
+}
+h9{	
+text-align:center;
+font-family: Apple chancery,cursive;
+color: gold;
+font-size: 1em;
+margin-top:20px;
+}
+h10{	
+text-align:center;
+font-family: Apple chancery,cursive;
+color: gold;
+font-size: 1em;
+margin-top:20px;
+}
+h11{	
+text-align:center;
+font-family: Apple chancery,cursive;
+color: gold;
+font-size: 1em;
+margin-top:20px;
+}
+h12{	
+text-align:center;
+font-family: Apple chancery,cursive;
+color: gold;
+font-size: 1em;
+margin-top:20px;
+}
+h13{	
+text-align:center;
+font-family: Apple chancery,cursive;
+color: gold;
+font-size: 1em;
+margin-top:20px;
+}
+h14{	
+text-align:center;
+font-family: Apple chancery,cursive;
+color: gold;
+font-size: 1em;
+margin-top:20px;
+}
+h15{	
+text-align:center;
+font-family: Apple chancery,cursive;
+color: gold;
+font-size: 1em;
+margin-top:20px;
+}
+h16{	
+text-align:center;
+font-family: Apple chancery,cursive;
+color: gold;
+font-size: 1em;
+margin-top:20px;
+}
+image{
+width:400px;
+height:400px;
+}
+p{
+	text-align:center;
+	font-family:Apple chancery,cursive;
+	font-size:15px;
+	}
