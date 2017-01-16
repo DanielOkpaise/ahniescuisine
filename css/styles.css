@@ -1,0 +1,185 @@
+/*
+Free Basic Html5 Responsive Templates
+Author: Kimmy
+Author URI: http://www.zerotheme.com/
+*/
+/* ---------------------Reset----------------------- */
+a,abbr,acronym,address,applet,article,aside,audio,b,blockquote,big,body,center,canvas,caption,cite,code,command,datalist,dd,del,details,dfn,dl,div,dt,em,embed,fieldset,figcaption,figure,font,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,keygen,label,legend,li,meter,nav,object,ol,output,p,pre,progress,q,s,samp,section,small,span,source,strike,strong,sub,sup,table,tbody,tfoot,thead,th,tr,tdvideo,tt,u,ul,var{background:transparent;border:0 none;font-size:100%;margin:0;padding:0;border:0;outline:0;vertical-align:top;}ol, ul {list-style:none;}blockquote, q {quotes:none;}table, table td {padding:0;border:none;border-collapse:collapse;}img {vertical-align:top;}embed {vertical-align:top;}
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block;}
+mark, rp, rt, ruby, summary, time {display:inline;}
+input, textarea {border:0; padding:0; margin:0; outline: 0;}
+iframe {border:0; margin:0; padding:0;}
+input, textarea, select {margin:0; padding:0px;}
+
+@font-face { 
+  font-family: Salpicon; 
+    src: url('../fonts/Salpicon.otf'); 
+    src: local("Salpicon"), url('../fonts/Salpicon.otf'); 
+} 
+
+/* -------------------------------------------- */
+/* ------------------Style---------------------- */
+/* -------------------------------------------- */
+html, body {width:100%; padding:0; margin:0;}
+body {background: #400000 url(../images/bg152.jpg) repeat;color: #000 ;font: 14px/25px "Comic Sans MS", arial;}
+h1, h2, h3, h4, h5, h6, h7 {color: #FF4000;}
+
+/*-------------------------*/
+a{color:#FFF;text-decoration: none;}
+a:hover {text-decoration: none;}
+
+a.button:hover, input.button:hover {}
+
+/*-------------header */
+header {width:960px;margin: 0px auto; height: 130px; position:relative; background: #fff url(./images/headerbg.jpg) no-repeat top center; border-bottom: 1px solid #000;}
+
+header #logo {position:absolute; top:0px; left: 20px;}
+
+header #search {position: absolute;top: 70px;right: 50px;	width: 258px;z-index: 15;}
+header .button-search {	position: absolute;	left: 0px;	background: url('../images/button-search.png') center center no-repeat;	width: 28px;	height: 24px;	border-right: 1px solid #CCCCCC;	cursor: pointer;}
+header #search input {	background: #FFF;	padding: 1px 1px 1px 33px;	width: 222px;	height: 21px;	border: 1px solid #CCCCCC;	-webkit-border-radius: 3px 3px 3px 3px;	-moz-border-radius: 3px 3px 3px 3px;	-khtml-border-radius: 3px 3px 3px 3px;	border-radius: 3px 3px 3px 3px;}
+
+/*------------menu */
+
+
+.featured{width:960px; margin:0 auto;}
+/*-------------content */
+#content {}
+	
+.wed {	border: 1px solid #FFC07F; background-color: #FF007F; color:#FFE599;}
+.wed span { color: #FFFFFF; text-decoration:none;}
+.wed a:active { color:#000000; font-weight: bold;}
+
+.sea {	border: 1px solid #FF0000; background-color: #FF0000; color:#FFE599}
+.sea span { color: #FFFFFF; text-decoration:none;}
+
+.nov {	border: 1px solid #660066; background-color: #660066; color:#FFE599}
+
+.kid {	border: 1px solid #FFFF00; background-color: #FFFF00; color:#000}
+
+.cor {	border: 1px solid #008000; background-color: #008000; color:#FFE599}
+
+.birt {	border: 1px solid #0000FF; background-color: #0000FF; color:#FFE599}
+
+.dst {	border: 1px solid #330000; background-color: #330000; color:#FFE599}
+
+.rulx {border-bottom: dotted 1px #FF4000; margin-bottom: 5px;}
+.main-content{ background-color:#FFE599;}
+.main-content article{margin: 20px 0;overflow:hidden; position:relative; margin-bottom: 0px;}
+.main-content .heading h2{ font-size:22px; line-height:25px; letter-spacing:1px; font-weight: bold; margin:10px 0; color:#FFFFFF; background-color:#FF4000; display:block; padding:10px; width:60%; box-shadow:#000; border-radius: 50%; border:5px solid #400000; text-align:center; font-family: "Salpicon","Comic Sans MS", cursive}
+.main-content .heading .info{font-size:12px; font-style:italic;}
+.main-content .content{} 
+.main-content .content img{float:left; margin:3px; padding:5px; border:1px solid #ff4000;}
+.main-content p{margin: 5px 0;}
+.main-content h3{ font-size:16px; line-height:25px;}
+.main-content a{color:#FF4000;text-decoration: none;}
+.main-content a:hover {text-decoration: underline;}
+.main-content .footer{}
+.main-content .footer .more{float:right;}
+.main-content .footer .more a{ text-decoration:none; text-transform:uppercase;}
+.main-content ul {list-style: circle; margin: 0;padding: 0 5px;}
+.main-content ul li { list-style: disc; margin-left: 12px;}
+
+.sidebar .heading{font-size:22px; font-weight: bold; padding: 10px ; color:#400000; font-family: "Salpicon","Comic Sans MS", cursive; letter-spacing:1px;}
+.sidebar .content{padding:10px;border-top:3px solid #F00;}
+.sidebar .content img{float:left; margin:; border-radius: 50%; border: 1px solid #ff4000; }
+.sidebar .content a{color: #F00;}
+.sidebar .content a:hover{ text-decoration: underline;}
+
+.form_settings { 
+  margin: 20px 0 0 0;
+  font: "Comic Sans MS", arial;
+}
+
+.form_settings p { 
+  padding: 0 0 4px 0;
+}
+
+.form_settings span { 
+  float: left; 
+  width: 150px; 
+  text-align: left;
+}
+  
+.form_settings input, .form_settings textarea { 
+  padding: 3px; 
+  width: 300px; 
+  font: 100%; 
+  font-weight: bold;
+  border: 1px solid #ff4000; 
+  background: #FFE599; 
+  color: #000;
+  border-radius: 7px 7px 7px 7px;
+  -moz-border-radius: 7px 7px 7px 7px;
+  -webkit-border: 7px 7px 7px 7px;  
+}
+  
+.form_settings .submit { 
+  font: 150%; 
+  width: 100px; 
+  margin: 0 0 0 212px; 
+  height: 40px;
+  padding: 3px;
+  cursor: pointer; 
+  background: #FF4000; /* Show a solid color for older browsers */
+  background: -moz-linear-gradient(#F00, #f00);
+  background: -o-linear-gradient(#F00, #f00);
+  background: -webkit-linear-gradient(#F00, #f00);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+  border: 2px solid #400000;
+  border-radius: 50%;
+  font-weight: bold;
+  color: #FFF;
+}
+
+.form_settings textarea { 
+  font: 100%; 
+  width: 300px;
+  font-weight: bold;
+}
+
+.form_settings select { 
+ padding: 3px; 
+  width:; 
+  font: 100%; 
+  border: 1px solid #ff4000; 
+  background: #FFE599; 
+  color: #000;
+  font-weight: bold;
+  border-radius: 7px 7px 7px 7px;
+  -moz-border-radius: 7px 7px 7px 7px;
+  -webkit-border: 7px 7px 7px 7px;  
+}
+
+.form_settings .checkbox { 
+  margin: 4px 0; 
+  padding: 0; 
+  width: 14px;
+  border: 0;
+  background: none;
+}
+
+.testi2 {
+	background-color: #ff4000;
+	text-align: left;
+	font:"Comic Sans MS", arial;
+}
+
+
+/*------------footer */ 
+footer {}
+footer .wrapper{padding: 20px 0px;background:#FF4000;}
+footer .heading{ color:#FFF; padding-bottom:5px; padding-left:10px;font-size:20px; font-weight:normal;  font-family: "Salpicon","Comic Sans MS", cursive; letter-spacing:1px;}
+footer .content{color:#000; padding-left:10px;}
+footer .content img{float:left; margin:5px;}
+footer ul {margin:0; padding:0;list-style-image:none;}
+footer ul li { list-style:circle;margin-left:20px;}
+footer ul li a { font-size:14px; color:#F00;}
+footer ul li a:hover {color:#F00; text-decoration:none; cursor:pointer;}
+footer p {color: #FFE599;}
+
+/*-------------copyright*/
+#copyright{ width:100%; display:inline-block; text-align:center; padding:8px 0px; color:#000; font-weight: bold;}
+#copyright a{ color: #FFF; font-weight: bold;}
